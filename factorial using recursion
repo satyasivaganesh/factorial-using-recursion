@@ -1,0 +1,7 @@
+def fact(n,N):
+    if n>=N:
+        return n
+    else:
+        return n*fact(n+1,N)
+N=int(input())
+print(fact(1,N))
